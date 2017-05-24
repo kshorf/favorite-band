@@ -15,21 +15,43 @@ h2 {
   text-align: center;
 }
 
+div.main-image {
+  align-content: center;
+}
+
 .column {
   width: 300px;
-  float:right;
+  float: left;
+}
+
+.border {
+  border: 3px white solid;
+  overflow: hidden;
 }
 
 .sidebar-l {
-  width: 17.5%;
+  margin: 0 auto;
+  display: block;
+  width: 15%;
   float: left;
   background-color: purple;
   color: white;
   text-align: center;
 }
 
-.funky {
-  font-weight: bold;
+.sidebar-r {
+  margin: 0 auto;
+  display: block;
+  width: 15%;
+  float: right;
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+
+.text {
+  margin: 0 auto;
+  display: block;
 }
 
 li {
@@ -38,15 +60,5 @@ li {
 
 h3 {
   text-weight: bold;
-  text-align: center;
-}
-
-.sidebar-r {
-  display: inline;
-  align-self: center;
-  width: 17%;
-  float: left;
-  background-color: green;
-  color: white;
   text-align: center;
 }
