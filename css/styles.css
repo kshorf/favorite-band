@@ -15,10 +15,6 @@ h2 {
   text-align: center;
 }
 
-div.main-image {
-  align-content: center;
-}
-
 .column {
   width: 300px;
   float: left;
@@ -30,8 +26,9 @@ div.main-image {
 }
 
 .sidebar-l {
-  margin: 0 auto;
   display: block;
+  padding: 5px;
+  margin: 10px;
   width: 15%;
   float: left;
   background-color: purple;
@@ -40,8 +37,9 @@ div.main-image {
 }
 
 .sidebar-r {
-  margin: 0 auto;
   display: block;
+  padding: 5px;
+  margin: 10px;
   width: 15%;
   float: right;
   background-color: purple;
